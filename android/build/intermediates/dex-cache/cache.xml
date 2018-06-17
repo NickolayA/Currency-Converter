@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="false"
+        jar="D:\CurrencyExchange\android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_8239eb35d6ce1b43725210f849495867fad802bb.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John\.gradle\caches\modules-2\files-2.1\com.google.code.findbugs\jsr305\3.0.0\5871fb60dc68d67da54a663c3fd636a10a532948\jsr305-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="5871fb60dc68d67da54a663c3fd636a10a532948">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\jsr305-3.0.0_7be6c87a893819d735faa5c52aaca20fffa99ae9.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_9589cf8251d5ebdda57d6e95cc2d3f5e2989c5c0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\forAndroidStudio\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_6e0a4395ce15d43408719a95d23dd7115c1a7178.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\CurrencyExchange\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="e31331bdf6b5952badadbfc171f04b95c55d3b16">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\com.facebook.react-react-native-0.55.4_6721eac8170264a42391db7feca54c6f724dbe9d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John\.gradle\caches\modules-2\files-2.1\com.facebook.fbui.textlayoutbuilder\staticlayout-proxy\1.0\f162442a19fff13995fbd51ba414d9ee05579080\staticlayout-proxy-1.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f162442a19fff13995fbd51ba414d9ee05579080">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\staticlayout-proxy-1.0_082b156b99db87df170d2027801c95499c6adcc8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\CurrencyExchange\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_a2422aa156cc26fc2506a070ad357886de4aa88b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\CurrencyExchange\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fbcore\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="37345de2ed2772f385eaeec37a9c2ff0fea99ad7">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fbcore-1.3.0_f421d8b4b2ecd2aff81b96312cf5344fdb16c3db.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\CurrencyExchange\android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_a7829eb05531970c02a44157aa8a996c2347e24a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.6.0\69edde9fc4b01c9fd51d25b83428837478c27254\okhttp-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="69edde9fc4b01c9fd51d25b83428837478c27254">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\okhttp-3.6.0_51862f6a8880eb657d40a132df86c78cad27c61c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\CurrencyExchange\android\app\build\intermediates\exploded-aar\com.facebook.react\react-native\0.55.4\jars\libs\infer-annotations-4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="9809e90be788acdb479b2b44e2112f3295a03068">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\infer-annotations-4.0_797a163b75cb85d9d2663d03bdc3fe22729908aa.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\CurrencyExchange\android\app\build\intermediates\exploded-aar\com.facebook.soloader\soloader\0.1.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="8f615bca00639150c9eb6175d4b5471193f70794">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\com.facebook.soloader-soloader-0.1.0_83434c9da2f1f5ed4e37b1955007f33c8e37a356.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\CurrencyExchange\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-okhttp3\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c03c08c9934b23c8c09c803345ec51a74119127b">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-okhttp3-1.3.0_552691c5e1bfef2893fde325734d2d0ecf74b497.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\CurrencyExchange\android\app\build\intermediates\exploded-aar\com.facebook.fbui.textlayoutbuilder\textlayoutbuilder\1.0.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="f90b593491e4044903f0bbf68dc3fa2790b151b9">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\com.facebook.fbui.textlayoutbuilder-textlayoutbuilder-1.0.0_171d4b614de31763294ebf7c0dac80a18e2dca4b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\CurrencyExchange\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="48c7f54c2515a2312d3a4481d10c43fbb807f3af">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-1.3.0_ca052d4c6ed54f920034611d2e670a50b49bb235.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\CurrencyExchange\android\app\build\intermediates\exploded-aar\com.facebook.fresco\fresco\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="fe85b87215e405f5917d40ae4960488ac9224b74">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-fresco-1.3.0_9577d517baa55f1a41bb5530dde89d53b289953c.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\CurrencyExchange\android\app\build\intermediates\exploded-aar\com.facebook.fresco\imagepipeline-base\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="72128af126ddd7d6252da9357fe560d3abcdfb0c">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-imagepipeline-base-1.3.0_b49b183dd44bfc40de04c9ae890e60ef70d0fd9e.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="D:\CurrencyExchange\android\app\build\intermediates\exploded-aar\com.facebook.fresco\drawee\1.3.0\jars\classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="c65a2e39d54023bac3aef64a2f0cff89289c7ff6">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\com.facebook.fresco-drawee-1.3.0_afb08be87f8b0242faa6d6e82a6617ac8c780c1d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John\.gradle\caches\modules-2\files-2.1\javax.inject\javax.inject\1\6975da39a7040257bd51d21a231b76c915872d38\javax.inject-1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="6975da39a7040257bd51d21a231b76c915872d38">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\javax.inject-1_3c9cb424895647563a0e15d274e889425f011eaf.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.13.0\a9283170b7305c8d92d25aff02a6ab7e45d06cbe\okio-1.13.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="a9283170b7305c8d92d25aff02a6ab7e45d06cbe">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\okio-1.13.0_a1783e9f9285678dc0f715be62a26d983b9de656.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="C:\Users\John\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-urlconnection\3.6.0\3f9b16b774f2c36cfd86dd2053d0b3059531dacc\okhttp-urlconnection-3.6.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="23.0.1"
+        sha1="3f9b16b774f2c36cfd86dd2053d0b3059531dacc">
+        <dex dex="D:\CurrencyExchange\android\app\build\intermediates\pre-dexed\debug\okhttp-urlconnection-3.6.0_b4d3db409db1b1a25ac2de9d434b8886a9331785.jar" />
+    </item>
+
+</items>

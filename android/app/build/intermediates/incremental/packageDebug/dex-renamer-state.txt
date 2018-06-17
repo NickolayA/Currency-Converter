@@ -1,0 +1,4 @@
+#Wed Jun 13 10:40:41 MSK 2018
+base.0=D\:\\CurrencyExchange\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=D\:\\CurrencyExchange\\android\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\1f\\main\\classes.dex
