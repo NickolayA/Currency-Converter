@@ -1,9 +1,10 @@
 import React from 'react';
-import { StyleSheet, Text, View, FlatList, Button, Modal, TouchableHighlight, Navigator, DatePickerAndroid } from 'react-native';
+import { StyleSheet, Text, View, FlatList, Button, Modal, DatePickerAndroid } from 'react-native';
 import { NativeRouter, Switch, Route } from 'react-router-native';
 import CurrencyExchange from './components/CurrencyExchange';
 import CurrencyList from './components/CurrencyList';
 import ButtonDatePicker from './components/ButtonDatePicker';
+import ConverterModal from './components/ConverterModal';
 
 export default class App extends React.Component {
 
@@ -17,7 +18,7 @@ export default class App extends React.Component {
     this.setState({modalVisible: visible});
   }
 
-  getLinkToApi = (date = "") => {
+  getLinkToApi = (date = new Date()) => {
     date = `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`;
     return `http://www.nbrb.by/API/ExRates/Rates?onDate=${date}&Periodicity=0`;
   }
@@ -50,7 +51,7 @@ export default class App extends React.Component {
     });
   }
 
-  componentDidMount() {
+  componentWillMount() {
     this.fetchData();
   }
 
@@ -58,22 +59,18 @@ export default class App extends React.Component {
     return (
         <View style={styles.container}>
           <Button title="К конвертеру валют" onPress={() => this.setModalVisible(true)}/>
-          <ButtonDatePicker state={this.state} selectNewDate={this.selectNewDate} />
-          <Modal
-            animationType="slide"
-            transparent={false}
-            visible={this.state.modalVisible}
-            onRequestClose={() => { this.setModalVisible(!this.state.modalVisible)) }
-          }>
-              <ButtonDatePicker state={this.state} selectNewDate={this.selectNewDate} />
-              <CurrencyExchange result={this.state.result}/>
+          <ButtonDatePicker date={this.state.date} selectNewDate={this.selectNewDate} />
 
-              <Button onPress={() => { this.setModalVisible(!this.state.modalVisible) }} title="К списку валют" />
-                
-          </Modal>  
 
-            <CurrencyList result={this.state.result}/>
-            {/* <CurrencyExchange result={this.state.result}/> */}
+          <ConverterModal 
+            setModalVisible={this.setModalVisible} 
+            modalVisible={this.state.modalVisible}
+            date={this.state.date}
+            result={this.state.result}
+            selectNewDate={this.selectNewDate}
+          />
+
+          <CurrencyList result={this.state.result}/>
 
         </View>
     );
