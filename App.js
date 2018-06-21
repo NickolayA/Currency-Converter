@@ -5,6 +5,7 @@ import CurrencyExchange from './components/CurrencyExchange';
 import CurrencyList from './components/CurrencyList';
 import ButtonDatePicker from './components/ButtonDatePicker';
 import ConverterModal from './components/ConverterModal';
+import Spinner from './components/Spinner';
 
 export default class App extends React.Component {
 
@@ -27,13 +28,14 @@ export default class App extends React.Component {
     fetch(this.getLinkToApi(this.state.date))
       .then(response => response.json())
       .then(result => {
+        result.splice(1, 0, {"Cur_ID":354,"Date":"2016-07-06T00:00:00","Cur_Abbreviation":"BYN","Cur_Scale":1,"Cur_Name":"Белорусский рубль","Cur_OfficialRate":1});
         this.setState({
-          result
+          result: result
         });
         return result;
       })
       .catch(() => {
-        alert("Fuck FUck Fuck");
+        alert("Check the internet connection");
       });
   }
 
@@ -56,24 +58,28 @@ export default class App extends React.Component {
   }
 
   render() {
-    return (
-        <View style={styles.container}>
-          <Button title="К конвертеру валют" onPress={() => this.setModalVisible(true)}/>
-          <ButtonDatePicker date={this.state.date} selectNewDate={this.selectNewDate} />
+    if(this.state.result.length > 1){
+      return (
+          <View style={styles.container}>
+            <Button title="К конвертеру валют" onPress={() => this.setModalVisible(true)}/>
+            <ButtonDatePicker date={this.state.date} selectNewDate={this.selectNewDate} />
 
 
-          <ConverterModal 
-            setModalVisible={this.setModalVisible} 
-            modalVisible={this.state.modalVisible}
-            date={this.state.date}
-            result={this.state.result}
-            selectNewDate={this.selectNewDate}
-          />
+            <ConverterModal 
+              setModalVisible={this.setModalVisible} 
+              modalVisible={this.state.modalVisible}
+              date={this.state.date}
+              result={this.state.result}
+              selectNewDate={this.selectNewDate}
+            />
 
-          <CurrencyList result={this.state.result}/>
+            <CurrencyList result={this.state.result}/>
 
-        </View>
-    );
+          </View>
+      );
+    }else{
+      return <Spinner />;
+    }
   }
 }
 

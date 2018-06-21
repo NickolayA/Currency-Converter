@@ -18,7 +18,7 @@ export default class CurrencyExchange extends Component {
         this.setState({
             topCurrencyIndex: index
         });
-    }   
+    }
 
     handleButtonBottom = (index) => {
         this.setState({
@@ -32,11 +32,11 @@ export default class CurrencyExchange extends Component {
         });
     }
 
-    // onChangeBottomNumOfCurrency = val => {
-    //     this.setState({
-    //         numOfBottomCurrency: val
-    //     });
-    // }
+    onChangeBottomNumOfCurrency = val => {
+        this.setState({
+            numOfBottomCurrency: val
+        });
+    }
 
     render(){
         const { height, width } = Dimensions.get('window');

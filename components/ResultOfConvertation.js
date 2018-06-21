@@ -4,16 +4,16 @@ import {Text, View} from 'react-native';
 const ResultOfConvertation = (props) => {
 
     conversion = () => {
-        let currencyConvertFromOfficialRate = props.result[props.topCurrencyIndex]['Cur_OfficialRate'],
+        const currencyConvertFromOfficialRate = props.result[props.topCurrencyIndex]['Cur_OfficialRate'],
             currencyConvertToOfficialRate = props.result[props.bottomCurrencyIndex]['Cur_OfficialRate'],
             currencyConvertFromScale = props.result[props.topCurrencyIndex]['Cur_Scale'],
             currencyConvertToScale = props.result[props.bottomCurrencyIndex]['Cur_Scale'],
             numOfCurrencyConvertFrom = props.numOfCurrencyConvertFrom;
 
-        let forUnitBelPriceFrom = currencyConvertFromOfficialRate / currencyConvertFromScale;
-        let forUnitBelPriceTo = currencyConvertToOfficialRate / currencyConvertToScale;
+        const forUnitBelPriceFrom = currencyConvertFromOfficialRate / currencyConvertFromScale;
+        const forUnitBelPriceTo = currencyConvertToOfficialRate / currencyConvertToScale;
 
-        return parseFloat(forUnitBelPriceFrom * numOfCurrencyConvertFrom / currencyConvertToOfficialRate);
+        return parseInt(forUnitBelPriceFrom * numOfCurrencyConvertFrom / currencyConvertToOfficialRate);
     }
 
     // Cur_Scale – количество единиц иностранной валюты

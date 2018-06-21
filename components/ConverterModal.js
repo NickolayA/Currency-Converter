@@ -4,9 +4,7 @@ import ButtonDatePicker from './ButtonDatePicker';
 import CurrencyExchange from './CurrencyExchange';
 
 const ConverterModal = (props) => {
-
     return (
-        <View>
             <Modal
                 animationType="slide"
                 transparent={false}
@@ -19,6 +17,7 @@ const ConverterModal = (props) => {
                 <Button onPress={() => { props.setModalVisible(!props.modalVisible) }} title="К списку валют" />
 
             </Modal>
-        </View>
-    )
+    );
 }
+
+export default ConverterModal;
